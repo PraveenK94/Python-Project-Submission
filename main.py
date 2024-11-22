@@ -115,7 +115,7 @@ def main():
                 except ValueError:
                     print("Invalid year format. Skipping year filter.")
 
-        rating_input = input("Filter by minimum TMDb rating (e.g., 7.5), or press Enter to skip: ").strip()
+        rating_input = input("Filter by minimum TMDb rating (ex: 7.5), or press Enter to skip: ").strip()
         if rating_input:
             try:
                 rating_filter = float(rating_input)
